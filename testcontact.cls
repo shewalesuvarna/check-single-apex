@@ -3,7 +3,7 @@ public with sharing class testcontact {
         return [SELECT Id, Name, Phone FROM Contact WHERE AccountId = :accountId];
          //system.debug('Hello');
          integer a=2;
-         System.debug('a='+a);
+        // System.debug('a='+a);
           
     }
 }
